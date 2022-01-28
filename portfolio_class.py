@@ -10,6 +10,9 @@ from copy import deepcopy
 from functools import wraps
 import inspect
 
+# Fiz uma adição com plotly para gerar gráficos dinâmicos
+import plotly
+
 
 def get_default_args(f) -> dict:
     """Identifica, em forma de dicionário, os argumentos
